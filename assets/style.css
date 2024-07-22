@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.navbar .logo {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 2rem;
+}
+
+.bulleted li{
+    list-style: disc;
+    margin-left: 5px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .nav-links .cta {
+    background: #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle .menu-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin: 5px 0;
+}
+
+
+/* Input controls  */
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 5px;
+	width: 100%;
+}
+
+.input-control .filll{
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-width: 3px;
+    border-style: dashed;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+span{
+    color: red;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    margin-bottom: 2px;
+    color: #ff3860;
+    font-size: 9px;
+    height: 10px;
+}
+
+.error{
+    padding-top: -10px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .navbar .nav-links li {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .bulleted li{
+        list-style: disc;
+        margin-left: 5px;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .job-posting,
+    .application-form {
+        
+        flex: 1 1 100%;
+        padding: 0.5rem;
+    }
+
+    .job-posting ul {
+        padding-left: 0;
+    }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.job-posting {
+    flex: 3;
+    padding: 1rem;
+}
+
+.job-posting h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.job-posting p {
+    margin-bottom: 1rem;
+}
+
+.job-posting ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.job-posting ul li {
+    margin-bottom: 0.5rem;
+}
+
+.application-form {
+    
+    margin-top: 10rem;
+    border-width: 1px;
+    border: #333;
+    border-style: solid;
+    flex: 1;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.application-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.application-form input,
+.application-form select,
+.application-form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.application-form button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #0e0d0d;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer .footer-content .contact-info,
+footer .footer-content .links {
+    flex: 1;
+}
+
+footer .footer-content .links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+footer .footer-bottom {
+    background-color: #140404;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
