@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="includes/icons/fruit.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remotown - National Service Personnel</title>
+    <title>National Service Personnel</title>
     <link rel="stylesheet" href="build/css/demo.css">
     <link rel="stylesheet" href="build/css/intlTelInput.css">
     <link rel="stylesheet" href="assets/style.css">
@@ -40,11 +40,11 @@
     <main>
         <section class="job-posting">
             <h1>National Service Personnel (Junior Software Developer)</h1>
-            <p style="color: rgb(181, 171, 182)">Posted by Emmanuella Duffie Tabiri / 9, July 2024</p>
-            <h2>About Remotown</h2>
-            <p>Remotown is a dynamic start-up that aims to revolutionize the global job market. We connect talented IT
+            <p style="color: rgb(181, 171, 182)">Posted by PhilTech / 9, July 2024</p>
+            <h2>About PhilTech</h2>
+            <p>PhilTech is a dynamic start-up that aims to revolutionize the global job market. We connect talented IT
                 professionals with companies in need of their skills, offering a unique opportunity for individuals to
-                establish themselves in the modern working world. At Remotown, we strive for excellence and surround
+                establish themselves in the modern working world. At PhilTech, we strive for excellence and surround
                 ourselves only with the best.</p>
             <h2>Job Description</h2>
             <p>We are seeking motivated and talented National Service Personnel to join our Developers Team. This is a
@@ -181,8 +181,8 @@
     <footer>
         <div class="footer-content">
             <div class="contact-info">
-                <p>Address: Karl-Bröger-Straße 27, 90459 Nürnberg</p>
-                <p>Mobile: +4917684154748</p>
+                <p>Address: Wenniba, North Campus, Gusss Hall 3.</p>
+                <p>Mobile: +233553497824</p>
             </div>
             <div class="links">
                 <p>Important Links</p>
@@ -192,7 +192,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; Remotown GmbH - 2023</p>
+            <p>&copy; PhilTech - 2023</p>
         </div>
     </footer>
    
